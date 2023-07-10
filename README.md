@@ -7,7 +7,7 @@ The module is used to deploy azure container registries over terraform with a de
 # Example Use of Module:
 
     module "acr" {
-    source = "github.com/la-cc/terraform-azure-acr?ref=1.0.0"
+    source = "github.com/Hamburg-Port-Authority/terraform-azure-acr?ref=1.0.1"
 
     name                = var.name
     resource_group_name = var.resource_group_name
